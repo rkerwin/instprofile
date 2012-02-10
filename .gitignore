@@ -1,0 +1,5 @@
+target
+classes
+*.log
+*.stackdump
+web-app/WEB-INF/tld
