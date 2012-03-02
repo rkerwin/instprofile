@@ -32,7 +32,13 @@ h1 {
     font-size: 16px;
     margin: .8em 0 .3em 0;
 }
-
+/*Added h2 --linda mayforth*/
+h2 {
+    color: #299c39;
+    font-weight: normal;
+    font-size: 16px;
+    margin: .8em 0 .3em 0;
+}
 ul {
     padding-left: 15px;
 }
@@ -270,4 +276,41 @@ th.desc a {
 .buttons input.save {
     background: transparent url(../images/skin/database_save.png) 5px 50% no-repeat;
     padding-left: 28px;
+}
+/* added linda mayforth*/
+#header{
+    background: #48802c;
+    padding: 2em 1em 2em 1em;
+    margin-bottom: 1em;
+        
+}
+a.header-main:link, a.header-main:visited {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+.header-sub{
+    color: #fff;
+    font-size: 1.25em;
+    font-style: italic;
+}
+#footer{
+    font-size: 0.75em;
+    font-style:italic;
+    padding: 2em 1em 2em 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    clear: both;
+}
+#loginHeader{
+    float: right;
+    color: #fff;
+}
+#loginHeader a{
+    color: #fff;  
+}
+#search {
+float: right;
+margin: 2em 1em;
 }

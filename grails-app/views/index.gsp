@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Welcome to Grails</title>
+        <title>Welcome to Large School Consortium</title>
         <meta name="layout" content="main" />
         <style type="text/css" media="screen">
 
@@ -81,19 +81,25 @@
             </div>
         </div>
         <div id="pageBody">
-            <h1>Welcome to Grails</h1>
-            <p>Congratulations, you have successfully started your first Grails application! At the moment
-            this is the default page, feel free to modify it to either redirect to a controller or display whatever
-            content you may choose. Below is a list of controllers that are currently deployed in this application,
-            click on each to execute its default action:</p>
+            <h2>Welcome to the Large School Consortium Web Site</h2>
+            <p>Congratulations, this has been a collaboration between three schools, University of New Mexico,
+              Drexel University, and Texas Tech on adopting new technologies: Groovy on Grails</p>
 
             <div id="controllerList" class="dialog">
                 <h2>Available Controllers:</h2>
-                <ul>
-                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-                        <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-                    </g:each>
-                </ul>
+                <li class="controller">
+<a href="/LSC_UNM_CSI/institution/list">Institution - You must have an institution entered first.</a>
+</li>
+<li class="controller">
+<a href="/LSC_UNM_CSI/person/list">Person - Must have an institution to tie back to</a>
+</li>
+<li class="controller">
+<a href="/LSC_UNM_CSI/product/list">
+Product - Must have an Institution</a>
+</li>
+<li class="controller">
+<a href="/LSC_UNM_CSI/modification/list">Modification - Must have an institution and a product</a>
+</li>
             </div>
         </div>
     </body>
